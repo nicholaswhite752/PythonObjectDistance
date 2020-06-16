@@ -17,12 +17,12 @@ I choose to use the ImageAI library because it already had a model for Coke bott
 
 1. First, I took a picture of a Coke bottle standing up from about 2 feet away. I ran that image through a modified version of the imageTest.py program to get information on the bounding boxes. 
 
-2. The information of the bounding boxes is the upper left (x1,y1) and lower right (x2, y2) coordinates for the bounding box. Using those coordinates the length (x2 - x1) and width (y2 - y1) of the object can be found. These are the dimensions of the baseline 2 foot away Coke bottle.
+2. The information of the bounding boxes is the upper left (x1,y1) and lower right (x2, y2) coordinates for the bounding box. Using those coordinates the length (x2 - x1) and width (y2 - y1) of the object can be found. These are the dimensions of the baseline 2 feet away Coke bottle.
 
-3. When a new image is ran through the program, the proportion of that objects length an width to the baseline objects length and width need to be found to calculate the distance compared to the baseline object.   
+3. When a new image is ran through the program, the proportion of that objects length and width to the baseline objects length and width needs to be found. This is used to calculate the distance compared to the baseline object.   
 
-   For length the proportion is lengthofObject / lengthofBaseline.    
-   For width the proportion is widthofObject / widthofBaseline.
+   For length, the proportion is lengthofObject / lengthofBaseline.    
+   For width, the proportion is widthofObject / widthofBaseline.
 
 4. Take the average of the width and length proportion.  
 
