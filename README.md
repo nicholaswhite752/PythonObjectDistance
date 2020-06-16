@@ -2,7 +2,7 @@
 
 ## Theory and Logic
 
-The idea behind the small program is to use object recognition to solve for distance to object. 
+The idea behind the small program is to use object recognition to solve for distance to an object. 
 
 It has been shown that an object in your vision takes up a certain amount of space in your field of view.
 That same object twice as far away from you, would take up half the space in your field of view. 
