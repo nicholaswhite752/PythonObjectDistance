@@ -38,7 +38,7 @@ I choose to use the ImageAI library because it already had a model for Coke bott
 
 ## Future Ideas 
 
-1. Right now this only works looking directly at objects standing in the same orientation as the baseline object. A future work could be finding out how to get this idea to work on objects at different angles and orientations.
+1. Right now this only works looking directly at objects standing in the same orientation as the baseline object. A future implementation could be finding out how to get this idea to work on objects at different angles and orientations.
 
 2. This test only accounted for one type of object as a baseline, and only used images that only had that one specific item in them. Another improvement would be to get baselines for multiple objects, and then do the math based on what object is found. For example right now the program would be comparing all objects found in an image to the Coke bottle baseline that was hard-coded in. Instead there would be a data structure that would have baselines for many objects at a certain distance that would be used when that specific object is found. 
 
