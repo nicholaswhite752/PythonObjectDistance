@@ -12,7 +12,7 @@ Using data from an image recognition library, and a baseline image taken at 2 fe
 
 ## Implementation
 
-Using Python and the [ImageAI Object Recognition Library](https://imageai.readthedocs.io/en/latest/detection/index.html)
+Using Python and the [ImageAI Object Recognition Library](https://imageai.readthedocs.io/en/latest/detection/index.html).
 I choose to use the ImageAI library because it already had a model for Coke bottles
 
 1. First, I took a picture of a Coke bottle standing up from about 2 feet away. I ran that image through a modified version of the imageTest.py program to get information on the bounding boxes. 
